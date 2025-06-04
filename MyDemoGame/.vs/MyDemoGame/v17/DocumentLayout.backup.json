@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\MyDemoGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\MyDemoGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\RenderManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\RenderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\2DEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 239,
           "SelectedChildIndex": 9,
           "Children": [
             {
@@ -54,20 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RenderManager.h",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h",
-              "RelativeDocumentMoniker": "2DEngine\\RenderManager.h",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h",
-              "RelativeToolTip": "2DEngine\\RenderManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-04T11:01:45.876Z",
+              "DocumentIndex": 3,
+              "Title": "RenderManager.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp",
+              "RelativeDocumentMoniker": "2DEngine\\RenderManager.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp",
+              "RelativeToolTip": "2DEngine\\RenderManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-04T11:11:18.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "2DEngine.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\2DEngine.cpp",
               "RelativeDocumentMoniker": "2DEngine\\2DEngine.cpp",
@@ -80,15 +88,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Application.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\Application.cpp",
-              "RelativeDocumentMoniker": "MyDemoGame\\Application.cpp",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\Application.cpp",
-              "RelativeToolTip": "MyDemoGame\\Application.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MyDemoGame.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp",
+              "RelativeDocumentMoniker": "MyDemoGame\\MyDemoGame.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp",
+              "RelativeToolTip": "MyDemoGame\\MyDemoGame.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-04T10:54:56.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 161,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RenderManager.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h",
+              "RelativeDocumentMoniker": "2DEngine\\RenderManager.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h",
+              "RelativeToolTip": "2DEngine\\RenderManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-04T11:01:45.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyDemoGame.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h",
+              "RelativeDocumentMoniker": "MyDemoGame\\MyDemoGame.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h",
+              "RelativeToolTip": "MyDemoGame\\MyDemoGame.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-04T11:11:59.516Z",
               "EditorCaption": ""
             }
           ]

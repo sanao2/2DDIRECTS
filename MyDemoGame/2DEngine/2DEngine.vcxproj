@@ -153,6 +153,11 @@
     </ClCompile>
     <ClCompile Include="RenderManager.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyDemoGame\MyDemoGame.vcxproj">
+      <Project>{bf153608-a2f9-4d91-9a27-12363528ecf1}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
