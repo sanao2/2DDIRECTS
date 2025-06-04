@@ -21,6 +21,7 @@ protected:
 public:
 	virtual void Initialize(HWND hwnd, UINT width, UINT height);
 	virtual void Render();
+
 	void Uninitialize();
 	void Run();
 	int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow);

@@ -7,20 +7,20 @@ HRESULT RenderManager::CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** 
 	ComPtr<IWICBitmapFrameDecode> frame;	  // 이미지를 그릴 프레임 
 	ComPtr<IWICFormatConverter>   converter;  // WIC(Windows Imaging Component)에서 읽어들인 비트맵 소스를 다른 픽셀 포맷으로 변환
 
-	// ① 디코더 생성
+	// 디코더 생성
 	HRESULT hr = g_wicImagingFactory->CreateDecoderFromFilename(
 		path, nullptr, GENERIC_READ, WICDecodeMetadataCacheOnLoad, &decoder);
 	if (FAILED(hr)) return hr;
 
-	// ② 첫 프레임 얻기
+	// 첫 프레임 얻기
 	hr = decoder->GetFrame(0, &frame);
 	if (FAILED(hr)) return hr;
 
-	// ③ 포맷 변환기 생성
+	// 포맷 변환기 생성
 	hr = g_wicImagingFactory->CreateFormatConverter(&converter);
 	if (FAILED(hr)) return hr;
 
-	// ④ GUID_WICPixelFormat32bppPBGRA로 변환
+	// GUID_WICPixelFormat32bppPBGRA로 변환
 	hr = converter->Initialize(
 		frame.Get(),					// 어떤 비트맵(프레임)을 변환할 것인가?”를 지정하는 역할
 		GUID_WICPixelFormat32bppPBGRA,  // 어떤 픽셀 포맷으로 변환할 것인지”를 지정하는 GUID
@@ -32,15 +32,20 @@ HRESULT RenderManager::CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** 
 	// HRESULT를 반환합니다. 성공하면 S_OK 또는 S_FALSE, 실패하면 적절한 에러 코드(E_FAIL, E_INVALIDARG 등)
 	if (FAILED(hr)) return hr;
 
-	// ⑤ Direct2D 비트맵 속성 (premultiplied alpha, B8G8R8A8_UNORM)
+	// Direct2D 비트맵 속성 (premultiplied alpha, B8G8R8A8_UNORM)
 	D2D1_BITMAP_PROPERTIES1 bmpProps = D2D1::BitmapProperties1(
 		D2D1_BITMAP_OPTIONS_NONE,// 비트맵 옵션. GDI 와 함께 쓸 때에는 D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE 사용 
 		D2D1::PixelFormat(DXGI_FORMAT_B8G8R8A8_UNORM, D2D1_ALPHA_MODE_PREMULTIPLIED)
 	);
 
-	// ⑥ DeviceContext에서 WIC 비트맵으로부터 D2D1Bitmap1 생성
+	// DeviceContext에서 WIC 비트맵으로부터 D2D1Bitmap1 생성
 	hr = g_d2dDeviceContext->CreateBitmapFromWicBitmap(converter.Get(), &bmpProps, outBitmap);
 	return hr;
+}
+
+void RenderManager::Uninitialize()
+{
+	g_wicImagingFactory = nullptr; 
 }
 
 void RenderManager::Initialize(HWND hwnd, UINT width, UINT height)
@@ -72,7 +77,6 @@ void RenderManager::Initialize(HWND hwnd, UINT width, UINT height)
 	ComPtr<IDXGIFactory7> dxgiFactory;
 	CreateDXGIFactory(IID_PPV_ARGS(&dxgiFactory));
 
-
 	// SwapChain 생성 // 더블 버퍼링. 두개의 버퍼를 체인처럼 연결해서 사용할 수 있게 하는 것. 
 	DXGI_SWAP_CHAIN_DESC1 scDesc = {};
 	scDesc.Width = g_width;								  // 버퍼 너비. 가로 길이 
@@ -88,7 +92,6 @@ void RenderManager::Initialize(HWND hwnd, UINT width, UINT height)
 	// 스크린 모드(풀 스크린 혹은 윈도우 스크린 모드)로 설정해, 
 	// 출력할 화면을 정해서 
 	// 생성된 스왑 체인을 골라서 출력해줄 수 있게 하는 것.
-
 
 	// 백버퍼를 타겟으로 설정
 	ComPtr<IDXGISurface> backBuffer;
@@ -134,4 +137,38 @@ void RenderManager::Initialize(HWND hwnd, UINT width, UINT height)
 	/// 여기까지가 이미지 매니저가 가져가야 하는 부분 
 	/// </summary>
 	/// <param name="hwnd"></param>
+}
+void RenderManager::Render()
+{
+	g_d2dDeviceContext->BeginDraw();
+	g_d2dDeviceContext->Clear(D2D1::ColorF(D2D1::ColorF::DarkSlateBlue));
+
+	D2D1_SIZE_F size;
+
+	g_d2dDeviceContext->SetTransform(D2D1::Matrix3x2F::Identity()); // 변환 초기화
+
+	//1. 0,0 위치에 비트맵 전체영역 그린다. (변환은 초기화)
+	g_d2dDeviceContext->DrawBitmap(g_d2dBitmapFromFile.Get());
+
+	//2. DestPos(화면 위치) 설정과 SrcPos(비트맵 위치)로 그리기
+	D2D1_VECTOR_2F DestPos{ 0,0 }, SrcPos{ 0,0 }; // 화면 위치, 비트맵 위치
+	size = { 0,0 };	//	그릴 크기
+	D2D1_RECT_F DestRect{ 0,0,0,0 }, SrcRect{ 0,0,0,0 }; // 화면 영역, 비트맵 영역
+	D2D1_MATRIX_3X2_F transform;	// 변환 행렬
+
+	//4. 변환을 사용한 반전으로 DestRect(그릴 영역) 설정과 SrcRect(비트맵 일부 영역)로 그리기
+	DestPos = { 700,100 };
+	DestRect = { DestPos.x , DestPos.y, DestPos.x + size.width - 1 ,DestPos.y + size.height - 1 };
+
+	transform = D2D1::Matrix3x2F::Scale(-1.0f, 1.0f,  // x축 반전
+		D2D1::Point2F(DestPos.x, DestPos.y));        // 기준점
+	g_d2dDeviceContext->SetTransform(transform);
+	g_d2dDeviceContext->DrawBitmap(g_d2dBitmapFromFile.Get(), DestRect, 1.0f, D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, &SrcRect);
+
+	// 기준점
+	g_d2dDeviceContext->SetTransform(transform);
+	g_d2dDeviceContext->DrawBitmap(g_d2dBitmapFromFile.Get(), DestRect, 1.0f, D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, &SrcRect);
+
+	g_d2dDeviceContext->EndDraw();
+	g_dxgiSwapChain->Present(1, 0);
 }

@@ -6,8 +6,9 @@ class RenderManager : public Application
 {
 public : 
 	void Initialize(HWND hwnd, UINT width, UINT height) override; 
-	void Render(); 
+	void Render() override; 
 	HRESULT CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap);
+	void Uninitialize();  
 
 private : 
 	ComPtr<IWICImagingFactory> g_wicImagingFactory;
