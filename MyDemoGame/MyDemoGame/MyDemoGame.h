@@ -1,23 +1,25 @@
-﻿#pragma once
-#include "../2DEngine/pch.h" 
-#include "resource.h"
+﻿#pragma once  
+#include "../2DEngine/pch.h"  
+#include "../2DEngine/RenderManager.h"  
+#include "resource.h"  
 
-class Application
-{
-private : 
-	HWND g_hwnd = nullptr;
+class Application  
+{  
+private:  
+   ComPtr<ID2D1DeviceContext7> g_d2dDeviceContext;  
+   ComPtr<ID2D1Bitmap1> g_d2dBitmapFromFile;  
+   ComPtr<IWICImagingFactory> g_wicImagingFactory;  
 
-protected : 
-	ComPtr<ID3D11Device> g_d3dDevice;
-	ComPtr<IDXGISwapChain1> g_dxgiSwapChain;
-	ComPtr<ID2D1DeviceContext7> g_d2dDeviceContext;
-	ComPtr<ID2D1Bitmap1> g_d2dBitmapTarget;
+   // RenderManager를 전방 선언 대신 포함하여 불완전한 형식 문제 해결  
+   RenderManager* pRManager;  
 
-public : 
-	void Initialize(HWND hwnd); 
-	void Uninitialize();
-	void Render();
+public:  
+   Application() : pRManager(nullptr) {}  
+   ~Application() { if (pRManager) delete pRManager; }  
 
-	HRESULT CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap);
-	int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow);
+   void Initialize();  
+   void Uninitialize();  
+   void Render();  
+
+   void CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap);  
 };
