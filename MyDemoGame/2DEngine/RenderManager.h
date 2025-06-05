@@ -1,5 +1,9 @@
 #pragma once
+<<<<<<< HEAD
 #include "../MyDemoGame/Winmain.h"
+=======
+#include "pch.h"
+>>>>>>> parent of b9a4f36 (.)
 
 class RenderManager : public Winmain 
 {

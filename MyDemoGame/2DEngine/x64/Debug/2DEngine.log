@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  RenderManager.cpp
 C:\Users\User\Documents\Butterfly\2DDIRECTS\MyDemoGame\MyDemoGame\MyDemoGame.h(14,17): error C2143: 구문 오류: ';'이(가) '*' 앞에 없습니다.
   (소스 파일 '/RenderManager.cpp'을(를) 컴파일하는 중)
@@ -20,3 +21,10 @@ C:\Users\User\Documents\Butterfly\2DDIRECTS\MyDemoGame\MyDemoGame\MyDemoGame.h(1
 C:\Users\User\Documents\Butterfly\2DDIRECTS\MyDemoGame\MyDemoGame\MyDemoGame.h(18,36): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
   (소스 파일 '/RenderManager.cpp'을(를) 컴파일하는 중)
   
+=======
+﻿  pch.cpp
+  2DEngine.cpp
+  RenderManager.cpp
+C:\Users\User\Documents\Butterfly\2DDIRECTS\MyDemoGame\2DEngine\RenderManager.cpp(91,1): error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  코드를 생성하고 있습니다...
+>>>>>>> parent of b9a4f36 (.)

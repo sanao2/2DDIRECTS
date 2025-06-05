@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\WinMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\WinMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -29,10 +30,46 @@
     {
       "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\RenderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\2DEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\2DEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\RenderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\RenderManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\MyDemoGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\WinMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\WinMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> parent of b9a4f36 (.)
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\WinMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\WinMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\MyDemoGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,6 +83,7 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "WInApplication.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\WInApplication.cpp",
@@ -55,42 +93,95 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-05T07:25:58.104Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\pch.h",
+              "RelativeDocumentMoniker": "2DEngine\\pch.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\pch.h",
+              "RelativeToolTip": "2DEngine\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-05T06:50:40.408Z",
+>>>>>>> parent of b9a4f36 (.)
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 1,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\pch.cpp",
+              "RelativeDocumentMoniker": "2DEngine\\pch.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\pch.cpp",
+              "RelativeToolTip": "2DEngine\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-05T06:50:41.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> parent of b9a4f36 (.)
               "Title": "RenderManager.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp",
               "RelativeDocumentMoniker": "2DEngine\\RenderManager.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp",
               "RelativeToolTip": "2DEngine\\RenderManager.cpp",
+<<<<<<< HEAD
               "ViewState": "AgIAADYAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+>>>>>>> parent of b9a4f36 (.)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-04T11:11:18.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 2,
+              "Title": "2DEngine.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\2DEngine.cpp",
+              "RelativeDocumentMoniker": "2DEngine\\2DEngine.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\2DEngine.cpp",
+              "RelativeToolTip": "2DEngine\\2DEngine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-04T10:55:05.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+>>>>>>> parent of b9a4f36 (.)
               "Title": "MyDemoGame.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp",
               "RelativeDocumentMoniker": "MyDemoGame\\MyDemoGame.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp",
               "RelativeToolTip": "MyDemoGame\\MyDemoGame.cpp",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwEgAAAABAAAAAAAAAA==",
+>>>>>>> parent of b9a4f36 (.)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-04T10:54:56.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T10:54:56.966Z"
             }
           ]
         },
         {
           "DockedWidth": 194,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "WInApplication.h",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\WInApplication.h",
@@ -126,6 +217,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-05T05:46:31.337Z",
+=======
+              "DocumentIndex": 7,
+              "Title": "framework.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\framework.h",
+              "RelativeDocumentMoniker": "2DEngine\\framework.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\framework.h",
+              "RelativeToolTip": "2DEngine\\framework.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-05T06:33:13.363Z",
+>>>>>>> parent of b9a4f36 (.)
               "EditorCaption": ""
             },
             {
@@ -143,15 +245,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "framework.h",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\framework.h",
-              "RelativeDocumentMoniker": "2DEngine\\framework.h",
-              "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\framework.h",
-              "RelativeToolTip": "2DEngine\\framework.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Winmain.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\Winmain.h",
+              "RelativeDocumentMoniker": "MyDemoGame\\Winmain.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\Winmain.h",
+              "RelativeToolTip": "MyDemoGame\\Winmain.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+<<<<<<< HEAD
               "WhenOpened": "2025-06-05T06:33:13.363Z",
+=======
+              "WhenOpened": "2025-06-05T05:46:31.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyDemoGame.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h",
+              "RelativeDocumentMoniker": "MyDemoGame\\MyDemoGame.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h",
+              "RelativeToolTip": "MyDemoGame\\MyDemoGame.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-04T11:11:59.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RenderManager.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h",
+              "RelativeDocumentMoniker": "2DEngine\\RenderManager.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\Butterfly\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h",
+              "RelativeToolTip": "2DEngine\\RenderManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-04T11:01:45.876Z",
+>>>>>>> parent of b9a4f36 (.)
               "EditorCaption": ""
             }
           ]
