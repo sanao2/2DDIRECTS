@@ -144,11 +144,6 @@
     <Image Include="MyDemoGame.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\2DEngine\2DEngine.vcxproj">
-      <Project>{5e3246d6-585c-4259-adc4-456ccb9e2649}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

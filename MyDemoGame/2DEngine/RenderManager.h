@@ -1,8 +1,7 @@
 #pragma once
 #include "pch.h"
-#include "../MyDemoGame/Winmain.h" 
 
-class RenderManager : public Winmain 
+class RenderManager 
 {
 private : 
 	HWND hwnd;
