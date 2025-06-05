@@ -13,9 +13,10 @@ bool g_resized = false;
 class Winmain
 {
 public : 
+	virtual ~Winmain() = default; 
 	void Run(); 
 	virtual void Initialize();
-	void Uninitialize(); 
+	virtual void Uninitialize();
 	virtual void Render();	
 
 };

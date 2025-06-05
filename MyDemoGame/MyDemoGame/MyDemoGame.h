@@ -6,7 +6,7 @@
 class Application  
 {  
 private:  
-   ComPtr<ID2D1DeviceContext7> g_d2dDeviceContext;  
+   ComPtr<ID2D1DeviceContext7> g_d2dDeviceContext;
    ComPtr<ID2D1Bitmap1> g_d2dBitmapFromFile;  
    ComPtr<IWICImagingFactory> g_wicImagingFactory;  
 

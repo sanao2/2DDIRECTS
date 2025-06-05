@@ -1,6 +1,6 @@
 #include "RenderManager.h"
 // WIC를 통해 PNG 등을 로드하여 ID2D1Bitmap1**으로 반환
-void RenderManager::Initialize(HWND hwnd, UINT width, UINT height)
+void RenderManager::Initialize()
 {
 	// D3D11 디바이스 생성
 	D3D_FEATURE_LEVEL featureLevel;
@@ -61,7 +61,7 @@ void RenderManager::Uninitialize()
 	g_d2dDeviceContext = nullptr;
 	g_d2dBitmapTarget = nullptr;
 }
-void RenderManager::Render()
+void RenderManager::Render() 
 {
 	BeginDrawClear(D2D1::ColorF::Black); // 검은색으로 화면을 초기화 
 
@@ -87,3 +87,4 @@ void RenderManager::EndDraw()
 	g_d2dDeviceContext->EndDraw();
 	g_dxgiSwapChain->Present(1, 0); // 백버퍼를 전면 버퍼로 스와핑. 출력. 
 }
+// 스왑 체인에 있는 백버퍼를 전면 버퍼로 교체하는 작업. 

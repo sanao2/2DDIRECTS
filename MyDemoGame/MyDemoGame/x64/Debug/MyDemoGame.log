@@ -1,4 +1,9 @@
 ﻿  MyDemoGame.cpp
-  WinMain.cpp
+C:\Users\User\Documents\Butterfly\2DDIRECTS\MyDemoGame\2DEngine\RenderManager.h(3,10): error C1083: 포함 파일을 열 수 없습니다. 'SolutionRoot/MyDemoGame/Winmain.h': No such file or directory
+  (소스 파일 'MyDemoGame.cpp'을(를) 컴파일하는 중)
+  
+  Winmain.cpp
+C:\Users\User\Documents\Butterfly\2DDIRECTS\MyDemoGame\2DEngine\RenderManager.h(3,10): error C1083: 포함 파일을 열 수 없습니다. 'SolutionRoot/MyDemoGame/Winmain.h': No such file or directory
+  (소스 파일 'Winmain.cpp'을(를) 컴파일하는 중)
+  
   코드를 생성하고 있습니다...
-  MyDemoGame.vcxproj -> C:\Users\User\Documents\Butterfly\2DDIRECTS\MyDemoGame\x64\Debug\MyDemoGame.exe

@@ -1,4 +1,4 @@
-#include "WinMain.h"
+#include "Winmain.h"
 
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
@@ -27,8 +27,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 	case WM_EXITSIZEMOVE:
 		if (g_resized)
 		{
-			//Uninitialize();
-			//Application::Initialize(hWnd);
+			//Winmain::Uninitialize();
+			//Winmain::Initialize(hWnd);
 		}
 		break;
 	default:
@@ -44,8 +44,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)
 	ShowWindow(g_hwnd, nCmdShow);
 
 	CoInitialize(nullptr);
-
-	
+		
 	app.Run();
 	app.Uninitialize(); 
 
