@@ -1,23 +1,11 @@
 #include "../2DEngine/pch.h" 
 #pragma once
 #include "MyDemoGame.h"
+#include "../2DEngine/WInApplication.h" 
 
-
-HWND g_hwnd = nullptr;
-HINSTANCE g_hInstance; 
-
-UINT g_width = 1024;
-UINT g_height = 768;
-bool g_resized = false;
-
-class Winmain
+class Winmain : public WInApplication
 {
 public : 
-	virtual ~Winmain() = default; 
-	void Run(); 
-	virtual void Initialize();
-	virtual void Uninitialize();
-	virtual void Render();	
-
+	
 };
 
