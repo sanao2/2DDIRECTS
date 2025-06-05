@@ -1,5 +1,5 @@
-#pragma once
 #include "../2DEngine/pch.h" 
+#pragma once
 #include "MyDemoGame.h"
 
 
