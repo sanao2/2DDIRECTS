@@ -1,5 +1,5 @@
-﻿#pragma once  
-#include "../2DEngine/pch.h"  
+﻿#include "../2DEngine/pch.h"  
+#pragma once  
 #include "../2DEngine/RenderManager.h"  
 #include "resource.h"  
 

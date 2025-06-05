@@ -24,9 +24,6 @@
     <ClInclude Include="RenderManager.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="WInApplication.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2DEngine.cpp">
@@ -36,9 +33,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="RenderManager.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="WInApplication.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -142,7 +142,6 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="RenderManager.h" />
-    <ClInclude Include="WInApplication.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2DEngine.cpp" />
@@ -153,12 +152,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="RenderManager.cpp" />
-    <ClCompile Include="WInApplication.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyDemoGame\MyDemoGame.vcxproj">
-      <Project>{bf153608-a2f9-4d91-9a27-12363528ecf1}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,11 +1,14 @@
 #pragma once
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include "../MyDemoGame/Winmain.h"
 =======
 #include "pch.h"
 >>>>>>> parent of b9a4f36 (.)
+=======
+>>>>>>> parent of 63fa460 (.)
 
-class RenderManager : public Winmain 
+class RenderManager 
 {
 private : 
 	HWND hwnd;
@@ -20,7 +23,7 @@ public :
 	{}
 	void Initialize();
 	void Uninitialize(); 
-	void Render(); 
+	void Render() ; 
 
 	void BeginDrawClear(const D2D1::ColorF color); 
 	void DrawBitmap(ComPtr<ID2D1Bitmap1> pBitmap, const D2D1_RECT_F destrect) const;
