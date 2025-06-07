@@ -1,19 +1,15 @@
 #pragma once
 #include "../2DEngine/pch.h" 
+#include "MyDemoGame.h"
 
-extern HWND g_hwnd ;
-extern HINSTANCE g_hInstance;
-extern UINT g_width ;
-extern UINT g_height;
 
-class Winmain
+class Winmain 
 {
 public : 
+	Winmain() {}
 	virtual ~Winmain() = default; 
 	void Run(); 
-	void Initialize();
-	void Uninitialize();
-	virtual void Render();	
+
 
 };
 
