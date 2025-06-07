@@ -1,6 +1,8 @@
 #pragma once
 #include "pch.h"
-class RenderManager 
+#include "../MyDemoGame/WinMain.h"
+
+class RenderManager : public Winmain
 {
 private : 
 	HWND hwnd;
@@ -13,9 +15,9 @@ private :
 public : 
 	RenderManager(HWND hwnd, UINT width, UINT height) : hwnd(hwnd), width(width), height(height)
 	{}
-	void Initialize();
+	void Initialize() override;
 	void Uninitialize(); 
-	void Render() ; 
+	void Render() override; 
 
 	void BeginDrawClear(const D2D1::ColorF color); 
 	void DrawBitmap(ComPtr<ID2D1Bitmap1> pBitmap, const D2D1_RECT_F destrect) const;

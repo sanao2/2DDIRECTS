@@ -18,7 +18,7 @@ public :
 	void Run(); 
 	virtual void Initialize();
 	virtual void Uninitialize();
-	void Render();	
+	virtual void Render();	
 
 };
 
