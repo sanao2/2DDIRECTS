@@ -1,24 +1,19 @@
 #pragma once
 #include "../2DEngine/pch.h" 
 
-
+extern HWND g_hwnd ;
+extern HINSTANCE g_hInstance;
+extern UINT g_width ;
+extern UINT g_height;
 
 class Winmain
 {
 public : 
-	HWND g_hwnd = nullptr;
-	HINSTANCE g_hInstance;
-
-	UINT g_width = 1024;
-	UINT g_height = 768;
-	bool g_resized = false;
-
-public : 
 	virtual ~Winmain() = default; 
 	void Run(); 
-	virtual void Initialize();
-	virtual void Uninitialize();
-	virtual void Render();	
+	void Initialize();
+	void Uninitialize();
+	void Render();	
 
 };
 

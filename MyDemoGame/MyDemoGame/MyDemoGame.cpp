@@ -63,6 +63,7 @@ void Application::Initialize()
 		__uuidof(g_wicImagingFactory),
 		(void**)g_wicImagingFactory.GetAddressOf());
 
+	pRManager->Initialize(); 
 }
 
 void Application::Uninitialize()
@@ -70,8 +71,12 @@ void Application::Uninitialize()
 	g_wicImagingFactory = nullptr;
 	g_d2dBitmapFromFile = nullptr;
 	g_d2dDeviceContext = nullptr;
+
+	pRManager->Uninitialize(); 
 }
 
 void Application::Render()
-{}
+{
+	pRManager->Render(); 
+}
 

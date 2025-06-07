@@ -52,6 +52,7 @@ void RenderManager::Initialize()
 
 	g_d2dDeviceContext->SetTarget(g_d2dBitmapTarget.Get());
 	//Direct2D의 장치 컨텍스트(ID2D1DeviceContext)가 “이제부터 그릴 대상(target)을 방금 래핑한 비트맵으로 삼겠다”
+	LoadeImageFromFile(L"../Resource/Mushroom.png");
 
 }
 void RenderManager::Uninitialize()

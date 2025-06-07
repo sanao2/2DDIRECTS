@@ -2,6 +2,12 @@
 
 
 Winmain app; 
+HWND g_hwnd = nullptr;
+HINSTANCE g_hInstance;
+
+UINT g_width = 1024;
+UINT g_height = 768;
+bool g_resized = false;
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)  
 {  
@@ -20,16 +26,16 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
        UINT height = HIWORD(lParam); // 새 높이  
 
        // 특정 Winmain 객체를 참조하도록 수정  
-       if (app.g_width != width || app.g_height != height)  
+       if (g_width != width || g_height != height)  
        {  
-           app.g_width = width;  
-           app.g_height = height;  
-           app.g_resized = true;  
+           g_width = width;  
+           g_height = height;  
+           g_resized = true;  
        }  
    }  
    break;  
    case WM_EXITSIZEMOVE:  
-       if (app.g_resized)  
+       if (g_resized)  
        {  
            app.Uninitialize();  
            app.Initialize();  
@@ -43,9 +49,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)  
 {  
-   app.g_hInstance = hInstance;  
+   g_hInstance = hInstance;  
    app.Initialize();  
-   ShowWindow(app.g_hwnd, nCmdShow);  
+   ShowWindow(g_hwnd, nCmdShow);  
 
    CoInitialize(nullptr);  
 
@@ -87,7 +93,6 @@ void Winmain::Initialize()
 		WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT,
 		clientRect.right - clientRect.left, clientRect.bottom - clientRect.top,
 		nullptr, nullptr, g_hInstance, nullptr);
-	
 
 }
 

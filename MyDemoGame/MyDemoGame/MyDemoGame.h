@@ -12,15 +12,15 @@ private:
    ComPtr<IWICImagingFactory> g_wicImagingFactory;  
 
    // RenderManager를 전방 선언 대신 포함하여 불완전한 형식 문제 해결  
-   RenderManager* pRManager;  
+   RenderManager* pRManager = nullptr;  
 
 public:  
-   Application() : pRManager(nullptr) {}  
+   Application() : pRManager(new RenderManager(g_hwnd, g_width, g_height)) {}
    ~Application() { if (pRManager) delete pRManager; }  
 
-   void Initialize(); 
+   virtual void Initialize(); 
    void Uninitialize();  
-   void Render();  
+   virtual void Render();  
    
    void LoadeImageFromFile(const wchar_t* path);
    void CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap);  
