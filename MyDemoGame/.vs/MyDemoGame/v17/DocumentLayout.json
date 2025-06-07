@@ -74,8 +74,7 @@
               "RelativeToolTip": "2DEngine\\RenderManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-07T07:22:52.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T07:22:52.962Z"
             },
             {
               "$type": "Document",
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "MyDemoGame\\MyDemoGame.cpp",
               "ToolTip": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp",
               "RelativeToolTip": "MyDemoGame\\MyDemoGame.cpp",
-              "ViewState": "AgIAACsAAAAAAAAAAAAowDwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowEIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-07T07:22:53.152Z",
               "EditorCaption": ""
@@ -100,8 +99,7 @@
               "RelativeToolTip": "2DEngine\\RenderManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-07T10:43:28.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T10:43:28.162Z"
             },
             {
               "$type": "Document",
@@ -111,7 +109,7 @@
               "RelativeDocumentMoniker": "MyDemoGame\\WinMain.cpp",
               "ToolTip": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\WinMain.cpp",
               "RelativeToolTip": "MyDemoGame\\WinMain.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-07T07:22:53.161Z",
               "EditorCaption": ""
@@ -130,7 +128,7 @@
               "RelativeDocumentMoniker": "MyDemoGame\\MyDemoGame.h",
               "ToolTip": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h",
               "RelativeToolTip": "MyDemoGame\\MyDemoGame.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-07T07:22:53.155Z",
               "EditorCaption": ""
@@ -145,8 +143,7 @@
               "RelativeToolTip": "MyDemoGame\\WinMain.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-07T07:22:53.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T07:22:53.16Z"
             }
           ]
         }
