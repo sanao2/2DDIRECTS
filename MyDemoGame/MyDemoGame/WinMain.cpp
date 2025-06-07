@@ -90,7 +90,7 @@ void Winmain::Uninitialize()
 {
 }
 
-void Winmain::Render()
+void Winmain::Render() 
 {
 
 }

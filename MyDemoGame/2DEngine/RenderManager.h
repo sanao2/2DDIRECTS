@@ -1,13 +1,5 @@
 #pragma once
-<<<<<<< HEAD
-<<<<<<< HEAD
-#include "../MyDemoGame/Winmain.h"
-=======
 #include "pch.h"
->>>>>>> parent of b9a4f36 (.)
-=======
->>>>>>> parent of 63fa460 (.)
-
 class RenderManager 
 {
 private : 

@@ -9,6 +9,7 @@
 //PEG나 PNG, BMP, GIF 등 적절한 디코더(IWICBitmapDecoder)를 내부적으로 선택하고
 //해당 파일을 해석(디코딩)하여 메모리상의 비트맵 프레임을 얻을 수 있게 함. 
 
+
 void Application::CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap)
 {
 	ComPtr<IWICBitmapDecoder>     decoder;    // 이미지 포멧 디코더. 스트림 데이터를 디코딩하여 프레임 단위의 비트맵 객체로 변환. 즉, 픽셀 정보를 추출.  
@@ -48,6 +49,11 @@ void Application::CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBi
 	pRManager->getd2dContext()->CreateBitmapFromWicBitmap(converter.Get(), &bmpProps, outBitmap); 
 	
 }
+void Application::LoadeImageFromFile(const wchar_t* path)
+{
+	//이미지 파일(PNG 등)을 로드하여 ID2D1Bitmap1 객체로 만드는 초기화 과정
+	CreateBitmapFromFile(path, g_d2dBitmapFromFile.GetAddressOf());
+}
 
 void Application::Initialize()
 {
@@ -57,9 +63,6 @@ void Application::Initialize()
 		__uuidof(g_wicImagingFactory),
 		(void**)g_wicImagingFactory.GetAddressOf());
 
-	//이미지 파일(PNG 등)을 로드하여 ID2D1Bitmap1 객체로 만드는 초기화 과정
-	CreateBitmapFromFile(L"../Resource/mushroom.png", g_d2dBitmapFromFile.GetAddressOf());
-	//assert(SUCCEEDED(hr));
 }
 
 void Application::Uninitialize()

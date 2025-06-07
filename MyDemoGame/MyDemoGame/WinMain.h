@@ -15,9 +15,9 @@ class Winmain
 public : 
 	virtual ~Winmain() = default; 
 	void Run(); 
-	virtual void Initialize();
-	virtual void Uninitialize();
-	virtual void Render();	
+	void Initialize();
+	void Uninitialize();
+	void Render();	
 
 };
 

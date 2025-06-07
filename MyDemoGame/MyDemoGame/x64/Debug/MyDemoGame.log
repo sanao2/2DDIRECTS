@@ -1,4 +1,6 @@
 ﻿  MyDemoGame.cpp
   Winmain.cpp
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\MyDemoGame\MyDemoGame.h(7,28): error C2504: 'Winmain': 기본 클래스를 정의하지 않았습니다.
+  (소스 파일 'Winmain.cpp'을(를) 컴파일하는 중)
+  
   코드를 생성하고 있습니다...
-  MyDemoGame.vcxproj -> C:\Users\User\Documents\Butterfly\2DDIRECTS\MyDemoGame\x64\Debug\MyDemoGame.exe

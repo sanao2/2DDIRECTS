@@ -2,8 +2,9 @@
 #pragma once  
 #include "../2DEngine/RenderManager.h"  
 #include "resource.h"  
+#include "Winmain.h"
 
-class Application  
+class Application : public Winmain
 {  
 private:  
    ComPtr<ID2D1DeviceContext7> g_d2dDeviceContext;
@@ -17,9 +18,10 @@ public:
    Application() : pRManager(nullptr) {}  
    ~Application() { if (pRManager) delete pRManager; }  
 
-   void Initialize();  
+   void Initialize(); 
    void Uninitialize();  
    void Render();  
-
+   
+   void LoadeImageFromFile(const wchar_t* path);
    void CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap);  
 };
