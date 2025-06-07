@@ -1,8 +1,8 @@
 ﻿#include "../2DEngine/pch.h"  
+#include "Winmain.h"
 #pragma once  
 #include "../2DEngine/RenderManager.h"  
 #include "resource.h"  
-#include "Winmain.h"
 
 class Application : public Winmain
 {  

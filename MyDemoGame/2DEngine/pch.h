@@ -26,4 +26,5 @@
 #pragma comment(lib,"windowscodecs.lib")
 
 using namespace Microsoft::WRL;
+
 #endif //PCH_H

@@ -1,56 +1,61 @@
 #include "Winmain.h"
 
 
-LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
-{
-	switch (msg)
-	{
-	case WM_DESTROY:
-		PostQuitMessage(0);
-		break;
+Winmain app; 
 
-	case WM_SIZE:
-	{
-		if (wParam == SIZE_MINIMIZED)
-			break; // 최소화는 무시
+LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)  
+{  
+   switch (msg)  
+   {  
+   case WM_DESTROY:  
+       PostQuitMessage(0);  
+       break;  
 
-		UINT width = LOWORD(lParam); // 새 너비
-		UINT height = HIWORD(lParam); // 새 높이			
-		if (g_width != width || g_height != height)
-		{
-			g_width = width;
-			g_height = height;
-			g_resized = true;
-		}
-	}
-	break;
-	case WM_EXITSIZEMOVE:
-		if (g_resized)
-		{
-			//Winmain::Uninitialize();
-			//Winmain::Initialize(hWnd);
-		}
-		break;
-	default:
-		break;
-	}
-	return DefWindowProc(hWnd, msg, wParam, lParam);
+   case WM_SIZE:  
+   {  
+       if (wParam == SIZE_MINIMIZED)  
+           break; // 최소화는 무시  
+
+       UINT width = LOWORD(lParam); // 새 너비  
+       UINT height = HIWORD(lParam); // 새 높이  
+
+       // 특정 Winmain 객체를 참조하도록 수정  
+       if (app.g_width != width || app.g_height != height)  
+       {  
+           app.g_width = width;  
+           app.g_height = height;  
+           app.g_resized = true;  
+       }  
+   }  
+   break;  
+   case WM_EXITSIZEMOVE:  
+       if (app.g_resized)  
+       {  
+           app.Uninitialize();  
+           app.Initialize();  
+       }  
+       break;  
+   default:  
+       break;  
+   }  
+   return DefWindowProc(hWnd, msg, wParam, lParam);  
+}  
+
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)  
+{  
+   app.g_hInstance = hInstance;  
+   app.Initialize();  
+   ShowWindow(app.g_hwnd, nCmdShow);  
+
+   CoInitialize(nullptr);  
+
+   app.Run();  
+   app.Uninitialize();  
+
+   CoUninitialize();  
+   return 0;  
 }
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)
-{
-	g_hInstance = hInstance; 
-	Winmain app;
-	app.Initialize();
-	ShowWindow(g_hwnd, nCmdShow);
 
-	CoInitialize(nullptr);
-		
-	app.Run();
-	app.Uninitialize(); 
-
-	CoUninitialize();
-	return 0;
-}
 
 void Winmain::Run()
 {
