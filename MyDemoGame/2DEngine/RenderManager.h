@@ -1,11 +1,10 @@
 #include "pch.h"
 #pragma once
-#include "../MyDemoGame/Winmain.h"
 
 class RenderManager 
 {
 private : 
-	HWND hwnd;
+	HWND hwnd = nullptr;
 	UINT width;
 	UINT height;
 	ComPtr<ID3D11Device> g_d3dDevice;

@@ -46,7 +46,6 @@ void RenderManager::Initialize()
 	);
 	// “어떤 픽셀 포맷으로, 어떤 옵션을 가진 비트맵”인지 알려주기 위해, Direct2D의 비트맵 속성을 설정하고, 구조체 D2D1_BITMAP_PROPERTIES1 에 담는다. 
 
-
 	g_d2dDeviceContext->CreateBitmapFromDxgiSurface(backBuffer.Get(), &bmpProps, g_d2dBitmapTarget.GetAddressOf()); // “IDXGISurface를 바로 Direct2D의 ID2D1Bitmap1 객체로 변환(Wrap)해 달라”는 명령
 	// 직접 GPU 메모리의 텍스처를 복사하는 과정 없이, 동일한 메모리를 공용(shared)으로 사용한다. 
 

@@ -130,13 +130,16 @@ void Application::Initialize(int nCmdShow)
 
 	ShowWindow(g_hwnd, nCmdShow);
 
-
+	pRManager->Initialize(); 
 	//// Create WIC factory
-	CoCreateInstance(CLSID_WICImagingFactory,
+	/*CoCreateInstance(CLSID_WICImagingFactory,
 		NULL, CLSCTX_INPROC_SERVER,
 		__uuidof(g_wicImagingFactory),
+		(void**)g_wicImagingFactory.GetAddressOf());*/
+	CoCreateInstance(CLSID_WICImagingFactory,
+		NULL, CLSCTX_INPROC_SERVER,
+		__uuidof(IWICImagingFactory),
 		(void**)g_wicImagingFactory.GetAddressOf());
-
 	LoadeImageFromFile(L"../Resource/Mushroom.png");
 }
 
@@ -145,10 +148,12 @@ void Application::Uninitialize()
 	g_wicImagingFactory = nullptr;
 	g_d2dBitmapFromFile = nullptr;
 	g_d2dDeviceContext = nullptr;
+	pRManager->Uninitialize(); 
 
 }
 
 void Application::Render()
 {
+	pRManager->Render(); 
 }
 
