@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\MyDemoGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\Winmain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\Winmain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\Winmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\Winmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\RenderManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\MyDemoGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|solutionrelative:2DEngine\\RenderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\Winmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\Winmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\MyDemoGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF153608-A2F9-4D91-9A27-12363528ECF1}|MyDemoGame\\MyDemoGame.vcxproj|solutionrelative:MyDemoGame\\MyDemoGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E3246D6-585C-4259-ADC4-456CCB9E2649}|2DEngine\\2DEngine.vcxproj|C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\2DEngine\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "RenderManager.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.cpp",
               "RelativeDocumentMoniker": "2DEngine\\RenderManager.cpp",
@@ -83,26 +83,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MyDemoGame.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp",
               "RelativeDocumentMoniker": "MyDemoGame\\MyDemoGame.cpp",
               "ToolTip": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.cpp",
               "RelativeToolTip": "MyDemoGame\\MyDemoGame.cpp",
-              "ViewState": "AgIAACwAAAAAAAAAAAAtwEoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-07T07:22:53.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Winmain.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\WinMain.cpp",
               "RelativeDocumentMoniker": "MyDemoGame\\WinMain.cpp",
               "ToolTip": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\WinMain.cpp",
               "RelativeToolTip": "MyDemoGame\\WinMain.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAApwFAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-07T07:22:53.161Z",
               "EditorCaption": ""
@@ -111,17 +111,17 @@
         },
         {
           "DockedWidth": 194,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MyDemoGame.h",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h",
               "RelativeDocumentMoniker": "MyDemoGame\\MyDemoGame.h",
               "ToolTip": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\MyDemoGame.h",
               "RelativeToolTip": "MyDemoGame\\MyDemoGame.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-07T07:22:53.155Z",
               "EditorCaption": ""
@@ -134,20 +134,20 @@
               "RelativeDocumentMoniker": "2DEngine\\RenderManager.h",
               "ToolTip": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\2DEngine\\RenderManager.h",
               "RelativeToolTip": "2DEngine\\RenderManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-07T07:22:53.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Winmain.h",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\WinMain.h",
               "RelativeDocumentMoniker": "MyDemoGame\\WinMain.h",
               "ToolTip": "C:\\Users\\user\\Documents\\2DDIRECTS\\MyDemoGame\\MyDemoGame\\WinMain.h",
               "RelativeToolTip": "MyDemoGame\\WinMain.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-07T07:22:53.16Z",
               "EditorCaption": ""

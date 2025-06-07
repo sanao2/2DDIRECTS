@@ -13,7 +13,7 @@ public :
 	void Run(); 
 	void Initialize();
 	void Uninitialize();
-	void Render();	
+	virtual void Render();	
 
 };
 

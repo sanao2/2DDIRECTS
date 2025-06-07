@@ -1,7 +1,7 @@
 ﻿#include "../2DEngine/pch.h"  
-#include "Winmain.h"
 #pragma once  
 #include "../2DEngine/RenderManager.h"  
+#include "Winmain.h"
 #include "resource.h"  
 
 class Application : public Winmain
@@ -18,9 +18,9 @@ public:
    Application() : pRManager(new RenderManager(g_hwnd, g_width, g_height)) {}
    ~Application() { if (pRManager) delete pRManager; }  
 
-   virtual void Initialize(); 
+   void Initialize(); 
    void Uninitialize();  
-   virtual void Render();  
+   void Render();  
    
    void LoadeImageFromFile(const wchar_t* path);
    void CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap);  
