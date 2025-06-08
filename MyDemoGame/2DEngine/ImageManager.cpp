@@ -3,6 +3,7 @@
 
 void ImageManager::Initialize()
 {
+	cout << "ImageManager Init" << endl; 
 	// D3D11 디바이스 생성
 	D3D_FEATURE_LEVEL featureLevel;
 	D3D_FEATURE_LEVEL levels[] = { D3D_FEATURE_LEVEL_11_0 };
@@ -56,6 +57,8 @@ void ImageManager::Initialize()
 
 void ImageManager::Uninitialize()
 {
+	cout << "ImageManager UnInit" << endl;
+
 	g_d3dDevice = nullptr;
 	g_dxgiSwapChain = nullptr;
 	g_d2dDeviceContext = nullptr;
@@ -64,6 +67,8 @@ void ImageManager::Uninitialize()
 
 void ImageManager::Render()
 {
+	cout << "ImageManager Render" << endl;
+
 	BeginDrawClear(D2D1::ColorF::Black); // 검은색으로 화면을 초기화 
 
 	DrawBitmap(g_d2dBitmapTarget, D2D1::RectF(0, 0, (float)width, (float)height));

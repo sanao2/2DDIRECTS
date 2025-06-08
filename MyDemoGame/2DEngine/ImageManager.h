@@ -13,11 +13,6 @@ private :
 	ComPtr<ID2D1Bitmap1> g_d2dBitmapTarget;
 	ComPtr<ID2D1DeviceContext7> g_d2dDeviceContext;
 public : 
-	ImageManager(HWND hwnd, UINT width, UINT height, ComPtr<ID2D1DeviceContext7> d2dDeviceContext)
-		: hwnd(hwnd), width(width), height(height), g_d2dDeviceContext(d2dDeviceContext)
-	{
-	}
-
 	void Initialize() override;
 	void Uninitialize() override;
 	void Render() override;
