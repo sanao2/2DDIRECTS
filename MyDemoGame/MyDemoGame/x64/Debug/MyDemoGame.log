@@ -1,5 +1,27 @@
 ﻿  MyDemoGame.cpp
-MyDemoGame.obj : error LNK2019: "public: void __cdecl RenderManager::Initialize(void)" (?Initialize@RenderManager@@QEAAXXZ)"public: void __cdecl Application::Initialize(void)" (?Initialize@Application@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-MyDemoGame.obj : error LNK2019: "public: void __cdecl RenderManager::Uninitialize(void)" (?Uninitialize@RenderManager@@QEAAXXZ)"public: void __cdecl Application::Uninitialize(void)" (?Uninitialize@Application@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-MyDemoGame.obj : error LNK2019: "public: void __cdecl RenderManager::Render(void)" (?Render@RenderManager@@QEAAXXZ)"public: void __cdecl Application::Render(void)" (?Render@Application@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\user\Documents\2DDIRECTS\MyDemoGame\x64\Debug\MyDemoGame.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.
+  Winmain.cpp
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\2DEngine\ImageManager.h(5,29): error C2504: 'RenderManager': 기본 클래스를 정의하지 않았습니다.
+  (소스 파일 'MyDemoGame.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\2DEngine\ImageManager.h(21,7): error C3668: 'ImageManager::Initialize': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+  (소스 파일 'MyDemoGame.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\2DEngine\ImageManager.h(22,7): error C3668: 'ImageManager::Uninitialize': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+  (소스 파일 'MyDemoGame.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\2DEngine\ImageManager.h(23,7): error C3668: 'ImageManager::Render': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+  (소스 파일 'MyDemoGame.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\2DEngine\ImageManager.h(5,29): error C2504: 'RenderManager': 기본 클래스를 정의하지 않았습니다.
+  (소스 파일 'Winmain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\2DEngine\ImageManager.h(21,7): error C3668: 'ImageManager::Initialize': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+  (소스 파일 'Winmain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\2DEngine\ImageManager.h(22,7): error C3668: 'ImageManager::Uninitialize': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+  (소스 파일 'Winmain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\user\Documents\2DDIRECTS\MyDemoGame\2DEngine\ImageManager.h(23,7): error C3668: 'ImageManager::Render': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+  (소스 파일 'Winmain.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...

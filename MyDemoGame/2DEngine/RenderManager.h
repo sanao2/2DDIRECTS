@@ -1,5 +1,6 @@
 #include "pch.h"
 #pragma once
+#include "ImageManager.h"
 
 class RenderManager 
 {
@@ -7,20 +8,18 @@ private :
 	HWND hwnd = nullptr;
 	UINT width;
 	UINT height;
-	ComPtr<ID3D11Device> g_d3dDevice;
-	ComPtr<IDXGISwapChain1> g_dxgiSwapChain;
-	ComPtr<ID2D1Bitmap1> g_d2dBitmapTarget;
 	ComPtr<ID2D1DeviceContext7> g_d2dDeviceContext;
 public : 
-	RenderManager(HWND hwnd, UINT width, UINT height, ComPtr<ID2D1DeviceContext7> d2dDeviceContext) : hwnd(hwnd), width(width), height(height), g_d2dDeviceContext(d2dDeviceContext)
+	RenderManager() = default; 
+	RenderManager(HWND hwnd, UINT width, UINT height, ComPtr<ID2D1DeviceContext7> d2dDeviceContext)
+		: hwnd(hwnd) , width(width) , height(height), g_d2dDeviceContext(d2dDeviceContext)
 	{}
-	void Initialize();
-	void Uninitialize(); 
-	void Render() ; 
+	virtual ~RenderManager() {}
 
-	void BeginDrawClear(const D2D1::ColorF color); 
-	void DrawBitmap(ComPtr<ID2D1Bitmap1> pBitmap, const D2D1_RECT_F destrect) const;
-	void EndDraw(); 
-	ComPtr<ID2D1DeviceContext7> getd2dContext() { return g_d2dDeviceContext; } 
+	virtual void Initialize();
+	virtual void Uninitialize();
+	virtual void Render();
+
+	ComPtr<ID2D1DeviceContext7> getd2dContext() { return g_d2dDeviceContext; }
 };
 
