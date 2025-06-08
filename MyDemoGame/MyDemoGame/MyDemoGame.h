@@ -18,7 +18,7 @@ private:
    RenderManager* pRManager = nullptr;  
 
 public:  
-   Application() : pRManager(new RenderManager(g_hwnd, g_width, g_height)) {}
+   Application() : pRManager(new RenderManager(g_hwnd, g_width, g_height, g_d2dDeviceContext)) {}
    ~Application() { if (pRManager) delete pRManager; }  
 
    void Initialize();

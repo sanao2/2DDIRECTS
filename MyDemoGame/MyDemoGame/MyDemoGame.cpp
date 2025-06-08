@@ -143,6 +143,9 @@ void Application::Initialize()
 		__uuidof(IWICImagingFactory),
 		(void**)g_wicImagingFactory.GetAddressOf());*/
 	LoadeImageFromFile(L"../Resource/Mushroom.png");
+
+	pRManager->Initialize();
+
 }
 
 void Application::Uninitialize()
@@ -151,9 +154,11 @@ void Application::Uninitialize()
 	g_d2dBitmapFromFile = nullptr;
 	g_d2dDeviceContext = nullptr;
 
+	pRManager->Uninitialize(); 
 }
 
 void Application::Render()
 {
+	pRManager->Render(); 
 }
 
