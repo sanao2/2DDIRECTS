@@ -1,4 +1,4 @@
-﻿MyDemoGame.obj : error LNK2019: "public: void __cdecl RenderManager::Initialize(void)" (?Initialize@RenderManager@@QEAAXXZ)"public: void __cdecl Application::Initialize(int)" (?Initialize@Application@@QEAAXH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-MyDemoGame.obj : error LNK2019: "public: void __cdecl RenderManager::Uninitialize(void)" (?Uninitialize@RenderManager@@QEAAXXZ)"public: void __cdecl Application::Uninitialize(void)" (?Uninitialize@Application@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-MyDemoGame.obj : error LNK2019: "public: void __cdecl RenderManager::Render(void)" (?Render@RenderManager@@QEAAXXZ)"public: void __cdecl Application::Render(void)" (?Render@Application@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\user\Documents\2DDIRECTS\MyDemoGame\x64\Debug\MyDemoGame.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.
+﻿  MyDemoGame.cpp
+  Winmain.cpp
+  코드를 생성하고 있습니다...
+  MyDemoGame.vcxproj -> C:\Users\user\Documents\2DDIRECTS\MyDemoGame\x64\Debug\MyDemoGame.exe

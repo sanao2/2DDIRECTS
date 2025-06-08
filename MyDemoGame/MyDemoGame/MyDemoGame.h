@@ -21,11 +21,11 @@ public:
    Application() : pRManager(new RenderManager(g_hwnd, g_width, g_height)) {}
    ~Application() { if (pRManager) delete pRManager; }  
 
-   void Initialize(int nCmdShow);
+   void Initialize();
    void Uninitialize() ;
    void Render() ;
    void Run();
    
    void LoadeImageFromFile(const wchar_t* path);
-   void CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap);  
+   HRESULT CreateBitmapFromFile(const wchar_t* path, ID2D1Bitmap1** outBitmap);
 };

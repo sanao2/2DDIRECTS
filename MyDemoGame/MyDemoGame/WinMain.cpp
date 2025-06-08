@@ -5,9 +5,9 @@ Application apps;
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)  
 {   
-	apps.Initialize(nCmdShow);
 
-   CoInitialize(nullptr);  
+   apps.Initialize();
+   ShowWindow(g_hwnd, nCmdShow);
 
    apps.Run();  
    apps.Uninitialize();
