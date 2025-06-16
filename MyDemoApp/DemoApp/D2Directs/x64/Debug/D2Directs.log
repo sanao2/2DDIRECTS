@@ -1,0 +1,30 @@
+﻿  Application.cpp
+D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\RenderManager.h(16,24): error C2548: 'RenderManager::DrawBitmapTransform': 매개 변수 3의 기본 인수가 없습니다.
+  (소스 파일 '/Application.cpp'을(를) 컴파일하는 중)
+  
+  Object.cpp
+D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\RenderManager.h(16,24): error C2548: 'RenderManager::DrawBitmapTransform': 매개 변수 3의 기본 인수가 없습니다.
+  (소스 파일 '/Object.cpp'을(를) 컴파일하는 중)
+  
+D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\Object.cpp(36,12): error C2664: 'void RenderManager::DrawBitmapTransform(Microsoft::WRL::ComPtr<ID2D1Bitmap1> &,const D2D1_RECT_F *,const D2D1_MATRIX_3X2_F &,D2D1_BITMAP_INTERPOLATION_MODE,float)': 인수 2을(를) 'D2D1::Matrix3x2F'에서 'const D2D1_RECT_F *'(으)로 변환할 수 없습니다.
+  (소스 파일 '/Object.cpp'을(를) 컴파일하는 중)
+      D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\Object.cpp(36,40):
+      이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\RenderManager.h(14,7):
+      'RenderManager::DrawBitmapTransform' 선언을 참조하십시오.
+      D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\Object.cpp(36,12):
+      인수 목록 '(Microsoft::WRL::ComPtr<ID2D1Bitmap1>, D2D1::Matrix3x2F)'을(를) 일치시키는 동안
+  
+  RenderManager.cpp
+D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\RenderManager.h(16,24): error C2548: 'RenderManager::DrawBitmapTransform': 매개 변수 3의 기본 인수가 없습니다.
+  (소스 파일 '/RenderManager.cpp'을(를) 컴파일하는 중)
+  
+D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\RenderManager.cpp(142,99): error C2572: 'RenderManager::DrawBitmapTransform': 기본 인수 재정의. 매개 변수 1
+  (소스 파일 '/RenderManager.cpp'을(를) 컴파일하는 중)
+      D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\RenderManager.h(14,7):
+      'RenderManager::DrawBitmapTransform' 선언을 참조하십시오.
+  
+D:\2학기 백업\MyDemoApp\DemoApp\D2Directs\RenderManager.cpp(144,1): error C2548: 'RenderManager::DrawBitmapTransform': 매개 변수 3의 기본 인수가 없습니다.
+  (소스 파일 '/RenderManager.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
